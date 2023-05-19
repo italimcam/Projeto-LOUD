@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: 'Jost', sans-serif;
+}
+.topo {
+    display: flex;
+    justify-content: center;
+}
+.topo img {
+    padding: 30px;
+    width: 200px;
+    object-fit: contain;
+}
+h1 {
+    color: white;
+}
+section {
+    display: flex;
+    justify-content: column;
+    justify-content: center;
+}
+.formtitle {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 1000px;
+    border-top: solid #37ff00 2px;
+    border-bottom: solid #37ff00 2px;
+    color: white;
+}
+.campos {
+    padding-bottom: 30px;
+    display:flex;
+    flex:1;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.itens {
+    padding-left: 100px;
+}
+.area2 {
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.area2 img{
+    width: 280px;
+    margin-right: 60px;
+    background-color: #28b900;
+    margin-top: 10px;
+}
+#lll {
+    width: 180px;
+    background-color: #000;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+input [type="text"] {
+    width: 800px;
+}
+label {
+    display: block;
+}
+#campo {
+    width: 400px;
+    height: 40px;
+    margin-top: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgb(17, 16, 16);
+    border: solid #363636 1px;
+    border-radius: 13px;
+    color: rgb(128, 128, 128);
+    font-size: 13px;
+}
+#button {
+    align-self: center;
+    width: 440px;
+    height: 40px;
+    border: #363636;
+    border-radius: 13px;
+    font-weight: bold;
+    font-family: 'Jost', sans-serif;
+    font-size: 19px;
+}
+#button:hover {
+    background-color: #28b900;
+    color: white;
+    transition: 0.5s;
+    cursor: pointer;
+}
+h2 {
+    text-align: center;
+    color: #7f7f7f;
+}
+h2 a {
+    text-decoration: none;
+    color: white;
+}
+h2 a:hover {
+    color: #28b900;
+    transition: 0.5s;
+}

@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(13, 13, 13);
+    font-family: 'Jost', sans-serif;
+}
+.topo {
+    display: flex;
+    justify-content: center;
+}
+.topo img {
+    width: 300px;
+    margin-top: 50px;
+}
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.area {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    margin: 180px;
+    height: 500px;
+    border-radius: 13px 13px 13px 13px;
+    box-shadow: 0px 0px 20px #009e00;
+    margin-bottom: 0;
+}
+.login_img img {
+    flex:1;
+    width: 400px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 13px 0px 0px 13px;
+}
+.login_area {
+    display:flex;
+    flex:1;
+    width: 400px;
+    height: 500px;
+    padding-left:50px;
+    padding-right: 50px;
+    background-color: #141814;
+    justify-content:space-around;
+    border-radius: 0px 13px 13px 0px;
+
+}
+.login {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: flex-start;
+}
+.login_logo {
+    display: flex;
+    justify-content: center;
+    align-content: flex-start;
+    padding-top: 15px;
+}
+.login_logo img {
+    object-fit: cover;
+    width: 250px;
+    height: 110px;
+}
+#campo {
+    width: 330px;
+    height: 40px;
+    margin-top: 9px;
+    margin-bottom: 9px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgb(17, 16, 16);
+    border: solid #363636 1px;
+    border-radius: 13px;
+    color: rgb(128, 128, 128);
+    font-size: 13px;
+}
+
+label {
+    display: block;
+    color: white;
+}
+span {
+    color: white;
+    margin-right: 10px;
+}
+a {
+    text-align: right;
+    text-decoration: none;
+    font-weight: bold;
+    color:#9c9b9b;
+   
+}
+h2 {
+    font-size: 15px;
+    text-align: center;
+    color: #7f7f7f;
+}
+h2 a {
+    text-decoration: none;
+    color: white;
+}
+h2 a:hover {
+    color: #28b900;
+    transition: 0.5s;
+}
+#button {
+    align-self: center;
+    width: 370px;
+    height: 40px;
+    border: #363636;
+    border-radius: 13px;
+    font-weight: bold;
+    font-family: 'Jost', sans-serif;
+    font-size: 19px;
+    margin-top: 20px;
+}
+#button:hover {
+    background-color: #28b900;
+    color: white;
+    transition: 0.5s;
+    cursor: pointer;
+}

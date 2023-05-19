@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="formulario.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Jost&display=swap" rel="stylesheet">
+        <title>Formulário de Cadastro</title>
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <div class="topo">
+                    <img src="https://logodownload.org/wp-content/uploads/2020/07/loud-logo.png">
+                </div>
+            </div>
+        </header>
+        <section>
+            <div class="form">
+                <div class="campos">
+                    <div class="formtitle">
+                        <h1>Crie sua conta</h1>
+                    </div>
+                    <div class="itens">
+                    <form>
+                    <label for="user">Nome de usuário</label>
+                        <input type="text" name="usuario" id="campo" required placeholder="Seu nome de usuário"><br><br>
+                    <label for="nome">Nome</label>
+                        <input type="text" name="nome" id="campo" required placeholder="Seu nome"><br><br>
+                    <label for="sobrenome">Sobrenome</label>
+                        <input type="text" name="sobrenome" id="campo" required placeholder="Seu sobrenome"><br><br>
+                    <label for="email">Endereço de e-mail</label>
+                        <input type="email" name="email" id="campo" required placeholder="Seu e-mail"><br><br>
+                        <label for="data">Data de Nascimento</label>
+                    <input type="date" name="data" id="campo" required><br><br>
+                    <label for="pass">Senha</label>
+                        <input type="password" name="senha" id="campo" required placeholder="Sua senha" maxlength="8"><br><br>
+                        <input type="submit" id="button" value="Finalizar Cadastro">
+                    </form>
+                </div>
+                </div>
+                <div class="area2">
+                    Escolha sua foto de perfil<br>
+                    <img src="https://cdn-icons-png.flaticon.com/512/64/64096.png"><br>
+                    <input type="file" id="button2" accept="image/*">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/LOUD_logo.svg/450px-LOUD_logo.svg.png" id="lll">
+                </div>
+            </div>
+        </section>
+        <h2>
+            Já possui uma conta? <a href="login.html">Voltar para o Login</a>
+        </h2>
+    </body>
+</html>
