@@ -408,6 +408,41 @@ footer .logo {
         width: 400px;
     }
 }
+@media (max-width: 400px) {
+    header {
+        width: 100%;
+    }
+    .topo {
+        width: 300px;
+    }
+    .banner_area {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    #compra {
+        align-self: flex-end;
+    }
+    .area_compra {
+        display: flex;
+        flex-direction: column;
+    }
+    #compracard {
+        margin:0px;
+    }
+    .aspas {
+        width: 300px;
+    }
+    .tay {
+        width: 300px;
+    }
+    .aspas:hover #compracard{
+        margin: 20px;
+    }
+    .tay:hover #compracard{
+        margin: 20px;
+}
+}
 @media (min-width: 320px) {
     header {
         width: 100%;
