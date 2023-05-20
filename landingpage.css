@@ -408,7 +408,7 @@ footer .logo {
         width: 400px;
     }
 }
-@media (max-width: 320px) {
+@media (min-width: 320px) {
     header {
         width: 100%;
     }
