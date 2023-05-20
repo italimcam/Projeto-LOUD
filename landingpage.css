@@ -383,7 +383,7 @@ footer .logo {
     .topo {
         justify-content: space-between;
         height: 120px;
-        width: 600px;
+        width: auto;
     }
     .banner {
         display: flex;
